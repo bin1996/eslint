@@ -19,6 +19,7 @@ downWord(){
       evt.initEvent("click", false, false);
         const a=40
         const b=30
+
       link.dispatchEvent(evt);
       document.body.removeChild(link);
     })
