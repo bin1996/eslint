@@ -17,6 +17,8 @@ downWord(){
             document.body.appendChild(link);
             const evt = document.createEvent("MouseEvents");
             evt.initEvent("click", false, false);
+			const a=10
+			const b=20
             link.dispatchEvent(evt);
             document.body.removeChild(link);
         })
